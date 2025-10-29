@@ -14,4 +14,8 @@ if st.button("click me"):
 nombre = st.text_input("Escribe tu nombre")
 st.write(nombre)
 
+if nombre:
+  st.session_state["name"] = nombre 
+
 st.write(st.session_state)
+
