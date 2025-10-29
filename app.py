@@ -5,4 +5,5 @@ if "count" not in st.sesion_state:
   st.sesion_state["count"] = 0
 
 
-st.writeist.sesion_state)
+if st.button("click me"):
+  st.sesion_state["count"] += 1
